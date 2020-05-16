@@ -6,7 +6,7 @@ input {
     display: block;
     padding: 1.4rem 2rem;
     margin-bottom: 2rem;
-    border: 1px soid #ccc;
+    border: 1px solid #ccc;
     box-shadow: 0 2rem 3rem rbga(0, 0, 0, 0.5);
 
 }
