@@ -1,0 +1,64 @@
+input {
+    font-family: inherit;
+    font-size: 1.4rem;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 1.4rem 2rem;
+    margin-bottom: 2rem;
+    border: 1px soid #ccc;
+    box-shadow: 0 2rem 3rem rbga(0, 0, 0, 0.5);
+
+}
+
+select {
+    font-family: inherit;
+    font-size: 1.4rem;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding: 1.4rem 2rem;
+    margin-bottom: 2rem;
+    border: 1px soid #ccc;
+    box-shadow: 0 2rem 3rem rbga(0, 0, 0, 0.5);
+}
+
+input:focus,
+button,
+select {
+    outline: none;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .2s all;
+
+}
+
+button:hover {
+    background-color: #ccc;
+    box-shadow: 0 1rem 2rem rbga(0, 0, 0, 0.1);
+    border: none;
+    transform: translateY(-3px);
+}
+
+button:active {
+    background-color: #ccc;
+    box-shadow: 0 .5rem 1rem rbga(0, 0, 0, 0.1);
+    border: none;
+    transform: translateY(-1px);
+}
+
+button.disabled {
+    cursor: not-allowed;
+}
+
+.invalid {
+    border: 1px solid #e57373;
+    background-color: #ffcdd2;
+    color: black;
+}
